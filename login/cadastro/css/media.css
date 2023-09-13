@@ -1,0 +1,635 @@
+@media screen and (width: 320px) and (height: 658px) {
+    img {
+        width: 350px;
+        height: 350px;
+        position: absolute;
+        bottom: 350px;
+        animation-name: fadeIn;
+        animation-duration: 2s; 
+        animation-timing-function: ease-in-out;
+    }
+
+    p {
+        font: Arial 10pt;
+        color: white;
+        position: absolute;
+        right: 100px;
+        bottom: 2px;
+        width: calc(100% - 200px);
+    }
+}
+
+@media screen and (width: 375px) and (height: 667px) {
+    img {
+        width: 350px;
+        height: 350px;
+        position: absolute;
+        bottom: 350px;
+        animation-name: fadeIn;
+        animation-duration: 2s; 
+        animation-timing-function: ease-in-out;
+    }
+}
+
+@media screen and (width: 414px) and (height: 896px) {
+    img {
+        width: 350px;
+        height: 350px;
+        position: absolute;
+        bottom: 450px;
+        animation-name: fadeIn;
+        animation-duration: 2s; 
+        animation-timing-function: ease-in-out;
+    }
+
+    p {
+        font: Arial 10pt;
+        color: white;
+        position: absolute;
+        right: 100px;
+        bottom: 2px;
+        width: calc(100% - 200px);
+    }
+}
+
+@media screen and (width: 390px) and (height: 844px) {
+    img {
+        width: 350px;
+        height: 350px;
+        position: absolute;
+        bottom: 450px;
+        animation-name: fadeIn;
+        animation-duration: 2s; 
+        animation-timing-function: ease-in-out;
+    }
+
+    p {
+        font: Arial 10pt;
+        color: white;
+        position: absolute;
+        right: 100px;
+        bottom: 2px;
+        width: calc(100% - 200px);
+    }
+}
+
+@media screen and (width: 360px) and (height: 640px) {
+    img {
+        width: 350px;
+        height: 350px;
+        position: absolute;
+        bottom: 350px;
+        animation-name: fadeIn;
+        animation-duration: 2s; 
+        animation-timing-function: ease-in-out;
+    }
+
+    p {
+        font: Arial 10pt;
+        color: white;
+        position: absolute;
+        right: 100px;
+        bottom: 2px;
+        width: calc(100% - 200px);
+    }
+}
+
+@media screen and (width: 384px) and (height: 640px) {
+    img {
+        width: 350px;
+        height: 350px;
+        position: absolute;
+        bottom: 320px;
+        animation-name: fadeIn;
+        animation-duration: 2s; 
+        animation-timing-function: ease-in-out;
+    }
+
+    p {
+        font: Arial 10pt;
+        color: white;
+        position: absolute;
+        right: 100px;
+        bottom: 2px;
+        width: calc(100% - 200px);
+    }
+}
+
+@media screen and (width: 390px) and (height: 844px) {
+    img {
+        width: 350px;
+        height: 350px;
+        position: absolute;
+        bottom: 450px;
+        animation-name: fadeIn;
+        animation-duration: 2s; 
+        animation-timing-function: ease-in-out;
+    }
+
+    p {
+        font: Arial 10pt;
+        color: white;
+        position: absolute;
+        right: 100px;
+        bottom: 2px;
+        width: calc(100% - 200px);
+    }
+}
+
+@media screen and (width: 393px) and (height: 851px) {
+    img {
+        width: 350px;
+        height: 350px;
+        position: absolute;
+        bottom: 450px;
+        animation-name: fadeIn;
+        animation-duration: 2s; 
+        animation-timing-function: ease-in-out;
+    }
+
+    p {
+        font: Arial 10pt;
+        color: white;
+        position: absolute;
+        right: 100px;
+        bottom: 2px;
+        width: calc(100% - 200px);
+    }
+}
+
+@media screen and (width: 360px) and (height: 740px) {
+    img {
+        width: 350px;
+        height: 350px;
+        position: absolute;
+        bottom: 400px;
+        animation-name: fadeIn;
+        animation-duration: 2s; 
+        animation-timing-function: ease-in-out;
+    }
+
+    p {
+        font: Arial 10pt;
+        color: white;
+        position: absolute;
+        right: 100px;
+        bottom: 2px;
+        width: calc(100% - 200px);
+    }
+}
+
+@media screen and (width: 412px) and (height: 915px) {
+    p {
+        font: Arial 10pt;
+        color: white;
+        position: absolute;
+        right: 100px;
+        bottom: 2px;
+        width: calc(100% - 200px);
+    }
+}
+
+@media screen and (width: 412px) and (height: 914px) {
+    p {
+        font: Arial 10pt;
+        color: white;
+        position: absolute;
+        right: 100px;
+        bottom: 2px;
+        width: calc(100% - 200px);
+    }
+}
+
+@media screen and (width: 412px) and (height: 892px) {
+    p {
+        font: Arial 10pt;
+        color: white;
+        position: absolute;
+        right: 100px;
+        bottom: 2px;
+        width: calc(100% - 200px);
+    }
+}
+
+@media screen and (width: 412px) and (height: 823px) {
+    p {
+        font: Arial 10pt;
+        color: white;
+        position: absolute;
+        right: 100px;
+        bottom: 2px;
+        width: calc(100% - 200px);
+    }
+}
+
+@media screen and (width: 540px) and (height: 720px) {
+    img {
+        width: 350px;
+        height: 350px;
+        position: absolute;
+        bottom: 390px;
+        animation-name: fadeIn;
+        animation-duration: 2s; 
+        animation-timing-function: ease-in-out;
+    }
+
+    p {
+        font: Arial 10pt;
+        color: white;
+        position: absolute;
+        right: 100px;
+        bottom: 2px;
+        width: calc(100% - 200px);
+    }
+}
+
+@media screen and (width: 280px) and (height: 653px) {
+    img {
+        width: 350px;
+        height: 350px;
+        position: absolute;
+        bottom: 330px;
+        animation-name: fadeIn;
+        animation-duration: 2s; 
+        animation-timing-function: ease-in-out;
+    }
+
+    p {
+        font: Arial 10pt;
+        color: white;
+        position: absolute;
+        right: 90px;
+        width: calc(100% - 200px);
+    }
+}
+
+@media screen and (width: 600px) and (height: 1024px) {
+    img {
+        width: 350px;
+        height: 350px;
+        position: absolute;
+        bottom: 530px;
+        animation-name: fadeIn;
+        animation-duration: 2s; 
+        animation-timing-function: ease-in-out;
+    }
+
+    p {
+        font: Arial 10pt;
+        color: white;
+        position: absolute;
+        right: 90px;
+        width: calc(100% - 200px);
+    }
+}
+
+@media screen and (width: 640px) and (height: 360px) {
+    img {
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        bottom: 240px;
+        animation-name: fadeIn;
+        animation-duration: 2s; 
+        animation-timing-function: ease-in-out;
+    }
+
+    p {
+        font: Arial 10pt;
+        color: white;
+        position: absolute;
+        left: -120px;
+        bottom: 2px;
+        width: calc(100% - 200px);
+    }
+}
+
+@media screen and (width: 820px) and (height: 1180px) {
+    img {
+        width: 350px;
+        height: 350px;
+        position: absolute;
+        bottom: 650px;
+        animation-name: fadeIn;
+        animation-duration: 2s; 
+        animation-timing-function: ease-in-out;
+    }
+
+    p {
+        font: Arial 10pt;
+        color: white;
+        position: absolute;
+        right: 100px;
+        bottom: 2px;
+        width: calc(100% - 200px);
+    }
+}
+
+@media screen and (width: 800px) and (height: 1280px) {
+    img {
+        width: 350px;
+        height: 350px;
+        position: absolute;
+        bottom: 700px;
+        animation-name: fadeIn;
+        animation-duration: 2s; 
+        animation-timing-function: ease-in-out;
+    }
+
+    p {
+        font: Arial 10pt;
+        color: white;
+        position: absolute;
+        right: 100px;
+        bottom: 2px;
+        width: calc(100% - 200px);
+    }
+}
+
+@media screen and (width: 768px) and (height: 1024px) {
+    img {
+        width: 350px;
+        height: 350px;
+        position: absolute;
+        bottom: 550px;
+        animation-name: fadeIn;
+        animation-duration: 2s; 
+        animation-timing-function: ease-in-out;
+    }
+}
+
+@media screen and (width: 712px) and (height: 1138px) {
+    img {
+        width: 350px;
+        height: 350px;
+        position: absolute;
+        bottom: 600px;
+        animation-name: fadeIn;
+        animation-duration: 2s; 
+        animation-timing-function: ease-in-out;
+    }
+
+    p {
+        font: Arial 10pt;
+        color: white;
+        position: absolute;
+        right: 100px;
+        bottom: 2px;
+        width: calc(100% - 200px);
+    }
+}
+
+@media screen and (width: 912px) and (height: 1368px) {
+    img {
+        width: 350px;
+        height: 350px;
+        position: absolute;
+        bottom: 750px;
+        animation-name: fadeIn;
+        animation-duration: 2s; 
+        animation-timing-function: ease-in-out;
+    }
+}
+
+@media screen and (width: 1024px) and (height: 600px) {
+    img {
+        width: 350px;
+        height: 350px;
+        position: absolute;
+        bottom: 300px;
+        animation-name: fadeIn;
+        animation-duration: 2s; 
+        animation-timing-function: ease-in-out;
+    }
+}
+
+@media screen and (width: 1280px) and (height: 800px) {
+    img {
+        width: 350px;
+        height: 350px;
+        position: absolute;
+        bottom: 400px;
+        animation-name: fadeIn;
+        animation-duration: 2s; 
+        animation-timing-function: ease-in-out;
+    }
+}
+
+@media screen and (width: 414px) and (height: 736px) {
+    p {
+        font: Arial 10pt;
+        color: white;
+        position: absolute;
+        right: 100px;
+        bottom: 2px;
+        width: calc(100% - 200px);
+    }
+    img {
+        width: 350px;
+        height: 350px;
+        position: absolute;
+        bottom: 400px;
+        animation-name: fadeIn;
+        animation-duration: 2s; 
+        animation-timing-function: ease-in-out;
+    }
+}
+
+@media screen and (width: 320px) and (height: 894px) {
+    p {
+        font: Arial 10pt;
+        color: white;
+        position: absolute;
+        right: 100px;
+        bottom: 2px;
+        width: calc(100% - 200px);
+    }
+}
+
+@media screen and (width: 375px) and (height: 894px) {
+    p {
+        font: Arial 10pt;
+        color: white;
+        position: absolute;
+        right: 100px;
+        bottom: 2px;
+        width: calc(100% - 200px);
+    }
+}
+
+@media screen and (width: 425px) and (height: 894px) {
+    p {
+        font: Arial 10pt;
+        color: white;
+        position: absolute;
+        right: 100px;
+        bottom: 2px;
+        width: calc(100% - 200px);
+    }
+}
+
+@media screen and (width: 2560px) and (height: 1625px) {
+    img {
+        width: 350px;
+        height: 350px;
+        position: absolute;
+        bottom: 850px;
+        animation-name: fadeIn;
+        animation-duration: 2s; 
+        animation-timing-function: ease-in-out;
+    }
+}
+
+@media screen and (width: 320px) and (height: 582px) {
+    p {
+        font: Arial 10pt;
+        color: white;
+        position: absolute;
+        right: 100px;
+        bottom: 2px;
+        width: calc(100% - 200px);
+    }
+    img {
+        width: 350px;
+        height: 350px;
+        position: absolute;
+        bottom: 300px;
+        animation-name: fadeIn;
+        animation-duration: 2s; 
+        animation-timing-function: ease-in-out;
+    }
+}
+
+@media screen and (width: 375px) and (height: 582px) {
+    p {
+        font: Arial 10pt;
+        color: white;
+        position: absolute;
+        right: 100px;
+        bottom: 2px;
+        width: calc(100% - 200px);
+    }
+    img {
+        width: 350px;
+        height: 350px;
+        position: absolute;
+        bottom: 300px;
+        animation-name: fadeIn;
+        animation-duration: 2s; 
+        animation-timing-function: ease-in-out;
+    }
+}
+
+@media screen and (width: 425px) and (height: 582px) {
+    p {
+        font: Arial 10pt;
+        color: white;
+        position: absolute;
+        right: 100px;
+        bottom: 2px;
+        width: calc(100% - 200px);
+    }
+    img {
+        width: 350px;
+        height: 350px;
+        position: absolute;
+        bottom: 300px;
+        animation-name: fadeIn;
+        animation-duration: 2s; 
+        animation-timing-function: ease-in-out;
+    }
+}
+
+@media screen and (width: 768px) and (height: 582px) {
+    p {
+        font: Arial 10pt;
+        color: white;
+        position: absolute;
+        right: 100px;
+        bottom: 2px;
+        width: calc(100% - 200px);
+    }
+    img {
+        width: 350px;
+        height: 350px;
+        position: absolute;
+        bottom: 300px;
+        animation-name: fadeIn;
+        animation-duration: 2s; 
+        animation-timing-function: ease-in-out;
+    }
+}
+
+@media screen and (width: 1024px) and (height: 776px) {
+    p {
+        font: Arial 10pt;
+        color: white;
+        position: absolute;
+        right: 100px;
+        bottom: 2px;
+        width: calc(100% - 200px);
+    }
+    img {
+        width: 350px;
+        height: 350px;
+        position: absolute;
+        bottom: 400px;
+        animation-name: fadeIn;
+        animation-duration: 2s; 
+        animation-timing-function: ease-in-out;
+    }
+}
+
+@media screen and (width: 2560px) and (height: 1662px) {
+    img {
+        width: 350px;
+        height: 350px;
+        position: absolute;
+        bottom: 850px;
+        animation-name: fadeIn;
+        animation-duration: 2s; 
+        animation-timing-function: ease-in-out;
+    }
+}
+
+@media screen and (width: 321px) and (height: 846px) {
+    p {
+        font: Arial 10pt;
+        color: white;
+        position: absolute;
+        right: 100px;
+        bottom: 2px;
+        width: calc(100% - 200px);
+    }
+}
+
+@media screen and (width: 393px) and (height: 786px) {
+    p {
+        font: Arial 10pt;
+        color: white;
+        position: absolute;
+        right: 100px;
+        bottom: 2px;
+        width: calc(100% - 200px);
+    }
+}
+
+@media screen and (width: 375px) and (height: 812px) {
+    p {
+        font: Arial 10pt;
+        color: white;
+        position: absolute;
+        right: 100px;
+        bottom: 2px;
+        width: calc(100% - 200px);
+    }
+    img {
+        width: 350px;
+        height: 350px;
+        position: absolute;
+        bottom: 430px;
+        animation-name: fadeIn;
+        animation-duration: 2s; 
+        animation-timing-function: ease-in-out;
+    }
+}

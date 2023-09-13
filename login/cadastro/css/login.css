@@ -1,0 +1,163 @@
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+body {
+    font-family: 'karla', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.977);
+}
+
+/*Parte onde ficar a logo no login*/
+img {
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    bottom: 550px;
+    animation-name: fadeIn;
+    animation-duration: 2s; 
+    animation-timing-function: ease-in-out;
+}
+
+#loginPage {
+    text-align: center;
+    animation-name: fadeIn;
+    animation-duration: 2s; 
+    animation-timing-function: ease-in-out;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 80%;
+    padding: 10px 10px 10px 40px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: rgba(128, 128, 128, 0.149);
+    color: white;
+}
+
+
+.input-icon {
+    position: relative;
+    
+}
+
+.input-icon i {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-80%);
+    color: white;
+}
+i {
+    margin-top: 22px;
+}
+
+::placeholder {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.cadastrar, .cadastrarsenha {
+    text-decoration: none;
+    color: #0056b3;
+    display: block;
+    margin-top: 30px;
+}
+
+.cadastrarsenha {
+    margin-top: 10px;
+}
+
+.cadastrar strong:hover, .cadastrarsenha strong:hover {
+    text-decoration: underline;
+    color: rgba(255, 0, 0, 0.572);
+    transition: 0.7s;    
+}
+
+p {
+    font: Arial 20pt;
+    color:white;
+    position: fixed;
+    bottom: -10px; 
+    right: 40px; 
+    width: 9%;
+    height: 15%;
+    text-align: center;
+}
+
+.paragrafonegrito {
+    color: red;
+}
+
+.button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+#entrarBtn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    opacity: 1;
+    transition: opacity 0.2s;
+}
+
+#entrarBtn.hidden {
+    opacity: 0; 
+    pointer-events: none; 
+}
+
+.loading {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 24px;
+    height: 24px;
+    border: 3px solid rgba(0, 123, 255, 0.2);
+    border-radius: 50%;
+    border-top: 3px solid #007bff;
+    animation: carregamento 1s linear infinite;
+    display: none;
+}
+
+
+@keyframes carregamento {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}

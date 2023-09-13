@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,200;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="icon" href="./img/logosemfundo.png">
+    <script src="js/script.js" defer></script>
+    <title>Cadastro | Impact Security</title>
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="./img/logosemfundo.png" alt="Logo de uma empresa fictícia">
+        <h1 class="header-title">Cadastro de Clientes</h1>
+    </header>
+    
+    <main>
+        <div class="container-button">
+            <button type="button" class="button blue" id="cadastrarCliente">Cadastrar Cliente</button>
+        </div>
+        <table id="tableClient" class="records">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>E-mail</th>
+                    <th>Celular</th>
+                    <th>Cidade</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!--Dados que o usuário cadastrar fica aqui-->
+            </tbody>
+        </table>
+
+        <!--Modal para cadastrar um cliente-->
+        <div class="modal" id="modal">
+            <div class="modal-content">
+                <header class="modal-header">
+                    <h2>Novo Cliente</h2>
+                    <span class="modal-close" id="modalClose">&#10006;</span>
+                </header>
+                <form id="form" class="modal-form">
+                    <input type="text" id="nome" data-index="new" class="modal-field" placeholder="Nome do Cliente"
+                        required>
+                    <input type="email" id="email" class="modal-field" placeholder="e-mail do Cliente" required>
+                    <input type="text" id="celular" class="modal-field" placeholder="Celular do Cliente" required>
+                    <input type="text" id="cidade" class="modal-field" placeholder="Cidade do Cliente" required>
+                </form>
+                <footer class="modal-footer">
+                    <button id="salvar" class="button green">Salvar</button>
+                    <button id="cancelar" class="button red">Cancelar</button>
+                </footer>
+            </div>
+        </div>
+    </main>
+    <footer>
+        Copyright &copy; Luanna Bahia (Com auxilio do Prof. Fernando Leonid) <br>
+        <a href="https://github.com/Luannax" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/luannabahia/" target="_blank">Linkedln</a>
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

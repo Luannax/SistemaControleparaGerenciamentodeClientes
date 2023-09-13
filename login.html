@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="./login/cadastro/css/media.css">
+    <link rel="stylesheet" href="./login/cadastro/css/login.css">
+    <link rel="icon" href="../img/logosemfundo.png">
+    <title>Login | Impact Security</title>
+</head>
+<body>
+    <!-- Logo -->
+    <img src="./login/cadastro/img/logosemfundo.png">
+
+    <!-- Página de Login -->
+    <div id="loginPage">
+        <form action="https://cadastro-jade.vercel.app/">
+            <div class="input-icon">
+                <i class="fas fa-user"></i>
+            </div>
+            <input placeholder="Usuário" type="text" id="username" name="username" required>
+            <br>
+            <div class="input-icon">
+                <i class="fas fa-lock"></i> 
+            </div>
+            <input placeholder="Senha" type="password" id="password" name="password" required>
+
+            <div class="button-container">
+                <div class="loading" id="loading"></div>
+                <button type="submit" id="entrarBtn">Entrar</button>
+            </div>           
+        </form>
+        <a class="cadastrar" href="#">Não tem cadastro? <strong>Cadastre-se</strong></a>
+        <a class="cadastrarsenha" href="#">Esqueceu sua senha? <strong>Recuperar</strong></a>
+    </div>
+
+    
+    <div class="container">
+        <p>
+            Como fazer o login <br> 
+            Usuário: <strong class="paragrafonegrito">user</strong> <br>
+            Senha: <strong class="paragrafonegrito">123</strong>
+        </p>
+    </div>
+    
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="./login/cadastro/js/login.js"></script>
+</body>
+</html>
