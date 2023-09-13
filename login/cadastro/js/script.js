@@ -69,13 +69,13 @@ const saveClient = () => {
 const createRow = (client, index) => {
     const newRow = document.createElement('tr')
     newRow.innerHTML = `
-        <td>${client.nome}</td>
-        <td>${client.email}</td>
-        <td>${client.celular}</td>
-        <td>${client.cidade}</td>
+        <td class="nome">${client.nome}</td>
+        <td class="email">${client.email}</td>
+        <td class="cel">${client.celular}</td>
+        <td class="cidade">${client.cidade}</td>
         <td>
-            <button type="button" class="button green" id="edit-${index}"><ion-icon name="create-outline"></ion-icon></button>
-            <button type="button" class="button red" id="delete-${index}" ><ion-icon name="trash-outline"></ion-icon></button>
+            <button type="button" class="button green botãoedit" id="edit-${index}"><ion-icon name="create-outline"></ion-icon></button>
+            <button type="button" class="button red botãodel" id="delete-${index}" ><ion-icon name="trash-outline"></ion-icon></button>
         </td>
     `
     document.querySelector('#tableClient>tbody').appendChild(newRow)
