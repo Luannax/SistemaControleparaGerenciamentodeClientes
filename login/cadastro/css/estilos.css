@@ -81,26 +81,6 @@ th {
     color: white;
 }
 
-@media (max-width:480px){
-    header{
-        position:fixed;
-        width:100%;
-    }
-    .header-title {
-        color: rgb(255, 255, 255);
-        font-size: 2rem;
-        animation-name: fadeIn;
-        animation-duration: 2s; 
-        animation-timing-function: ease-in-out;
-    }
-
-    main{
-        padding: 0;
-        margin: 20px 0 0 0;
-        width:100%;
-        box-shadow: none;
-    }
-}
 
 
 /*Botões*/
@@ -143,28 +123,6 @@ button.red{
 .button:hover{
     box-shadow: inset 200px 0 0 #00000055;
 }
-
-
-@media(max-width:480px){
-    .button.mobile{
-        color:transparent;
-        font-size:0;
-        width:50px;
-        height:50px;
-        border-radius: 50%;
-        position:fixed;
-        top: 90vh;
-        left: 80vw;
-    }
-    .button.mobile::before{
-        content: "+";
-        color:black;
-        font-size:2rem;
-        width:100%;
-        height:100%;
-    }
-}
-
 
 
 /*Dados*/
@@ -276,23 +234,6 @@ h2 {
     padding: 0 20px;
 }
 
-@media (max-width:480px){
-    .modal{
-        top:100%;
-        transition: all 1s ease;
-    }
-    .modal.active{
-        top:0;
-    }
-    .modal-content{
-        margin:0;
-        width:100%;
-        position:fixed;
-    }
-    .modal-field{
-        width:100%;
-    }
-}
 
 
 /*Tabela*/
@@ -324,27 +265,199 @@ h2 {
     background-color: rgba(128, 128, 128, 0.206);
 }
 
-@media(max-width:480px){
+
+
+/*Responsividade*/
+@media screen and (max-width:480px ){
+
+    /*Parte do card, a tabela virou um card em telas menores na largura*/
     .records{
-        border-spacing: 5px;
+        border-spacing: 5px !important;
+        margin-top: 100px !important;
+        border-radius: 30px !important;   
     }
     .records thead{
         display:none;
     }
     .records tr{
-        box-shadow: 0 1px 3px gray;
+        box-shadow: 0 1px 3px rgb(83, 83, 83);
+        border-radius: 10px;
     }
     .records td:not(:first-child){
         display:flex;
         justify-content: space-between;
-        padding: 0 20px;
+        padding: 0 10px;
     }
 
-    .records td{
-        margin:10px 0;
+
+    .botãoedit, .botãodel {
+        width: 100%;
+        margin: 0;
+        border-radius: 0px;
     }
 
     .records tr:hover{
         background-color: inherit;
+    }
+
+    .nome {
+        font-size: 20pt;
+        display: inline;
+        background-color: #00000081;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        color: white;
+        padding-right: 20px;
+    }
+
+    td, 
+    .email
+    .cel 
+    .cidade {
+        font-weight: bold;
+        font-size: 12pt;
+    }
+
+    .email {
+        margin-top: 20px;
+    }
+
+    
+    /*Modal*/
+    .modal{
+        top:100%;
+        transition: all 1s ease;
+    }
+    .modal.active{
+        top:0;
+    }
+    .modal-field{
+        width:100%;
+    }
+
+    .button.mobile{
+        color:transparent;
+        font-size:0;
+        width:50px;
+        height:50px;
+        border-radius: 50%;
+        position:fixed;
+        top: 90vh;
+        left: 80vw;
+    }
+    .button.mobile::before{
+        content: "+";
+        color:black;
+        font-size:2rem;
+        width:100%;
+        height:100%;
+    }
+
+    /*Parte do header em mobile*/
+    header{
+        width: 100%;
+        position:fixed;
+        animation-name: fadeIn;
+        animation-duration: 2s; 
+        animation-timing-function: ease-in-out;
+        
+    }
+
+    .logo {
+        float: none; 
+        display: block; 
+        margin: 0 auto; 
+    }
+
+    .header-title {
+        color: rgb(255, 255, 255);
+        font-size: 18pt;
+    }
+
+
+    /*Conteúdo todo da página*/
+    main{
+        padding: 0 !important;
+        margin: 20px 0 0 0 !important;
+        width:50% !important;
+        box-shadow: none !important;
+    }
+
+    /*Botão de cadastrar o cliente*/
+    .container-button {
+        margin-top: 50px !important;
+        position: fixed !important;
+    }
+}
+
+
+@media screen and (max-width:768px){
+    header{
+        width: 100%;
+        position:fixed;
+        animation-name: fadeIn;
+        animation-duration: 2s; 
+        animation-timing-function: ease-in-out;
+    }
+    .logo {
+        float: none; 
+        display: block; 
+        margin: 0 auto; 
+        margin-left: 70px;
+        
+    }
+    .header-title {
+        color: rgb(255, 255, 255);
+        
+    }
+
+    /*Botão de cadastrar o cliente*/
+    .container-button {
+        margin-top: 50px;
+        margin-left: 60px;
+        animation-name: fadeIn;
+        animation-duration: 2s; 
+        animation-timing-function: ease-in-out;
+    }
+
+
+    .records {
+        margin-left: 40px;
+        animation-name: fadeIn;
+        animation-duration: 2s; 
+        animation-timing-function: ease-in-out;
+    }
+
+    th {
+        padding-left: 10px;
+        padding-right: 30px;
+    }
+
+    td {
+        text-align: center;
+    }
+
+    /*Modal*/
+    .modal{
+        top:100%;
+    }
+    .modal.active{
+        top:0;
+    }
+    .modal-content{
+        margin:0;
+        width:90%;
+        position:fixed;
+    }
+    .modal-field{
+        width:100%;
+    }
+
+    main{
+        padding: 0 !important;
+        margin: 20px 0 0 0 !important;
+        width:90% !important;
+        box-shadow: none !important;
     }
 }
