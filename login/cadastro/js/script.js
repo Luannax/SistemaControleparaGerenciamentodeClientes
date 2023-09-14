@@ -143,3 +143,4 @@ document.querySelector('#tableClient>tbody')
 
 document.getElementById('cancelar')
     .addEventListener('click', closeModal)
+
