@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function() {
         // Simula o carregamento durante 2 segundos (ajuste conforme necessário)
         setTimeout(function() {
             // Redireciona o usuário para a página de destino após o carregamento
-            window.location.href = "https://cadastro-jade.vercel.app/";
+            window.location.href = "login/cadastro/cadastro.html";
 
             // Remove a classe hidden para exibir o botão novamente
             entrarBtn.classList.remove("hidden");
