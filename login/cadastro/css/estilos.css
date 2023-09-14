@@ -82,7 +82,6 @@ th {
 }
 
 
-
 /*Botões*/
 .button{
     border-style: none;
@@ -272,9 +271,8 @@ h2 {
 
     /*Parte do card, a tabela virou um card em telas menores na largura*/
     .records{
-        border-spacing: 5px !important;
-        margin-top: 100px !important;
-        border-radius: 30px !important;   
+        border-spacing: 20px ;
+        border-radius: 30px;   
     }
     .records thead{
         display:none;
@@ -288,7 +286,6 @@ h2 {
         justify-content: space-between;
         padding: 0 10px;
     }
-
 
     .botãoedit, .botãodel {
         width: 100%;
@@ -355,71 +352,66 @@ h2 {
     }
 
     /*Parte do header em mobile*/
-    header{
-        width: 100%;
-        position:fixed;
-        animation-name: fadeIn;
-        animation-duration: 2s; 
-        animation-timing-function: ease-in-out;
-        
-    }
-
-    .logo {
-        float: none; 
-        display: block; 
-        margin: 0 auto; 
+    header {
+        background-color: rgba(0, 0, 0, 0.886);
+        height: 60px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        padding: 0;
+        margin: 0; 
     }
 
     .header-title {
-        color: rgb(255, 255, 255);
-        font-size: 18pt;
+        display: none;
     }
 
-
-    /*Conteúdo todo da página*/
-    main{
-        padding: 0 !important;
-        margin: 20px 0 0 0 !important;
-        width:50% !important;
-        box-shadow: none !important;
-    }
 
     /*Botão de cadastrar o cliente*/
     .container-button {
-        margin-top: 50px !important;
-        position: fixed !important;
+        text-align: left;
     }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
 }
 
-
 @media screen and (max-width:768px){
-    header{
-        width: 100%;
-        position:fixed;
-        animation-name: fadeIn;
-        animation-duration: 2s; 
-        animation-timing-function: ease-in-out;
+    header {
+        background-color: rgba(0, 0, 0, 0.886);
+        height: 60px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        padding: 0;
+        margin: 0; 
     }
+    
     .logo {
         float: none; 
         display: block; 
-        margin: 0 auto; 
-        margin-left: 70px;
-        
+        margin:auto; 
+        margin-left: -1px;
     }
     .header-title {
         color: rgb(255, 255, 255);
-        
+        font-size: 12pt;
+        margin-right: 200px;
     }
 
     /*Botão de cadastrar o cliente*/
     .container-button {
-        margin-top: 50px;
-        margin-left: 60px;
-        animation-name: fadeIn;
-        animation-duration: 2s; 
-        animation-timing-function: ease-in-out;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
+        margin-left: 40px;
     }
+    
 
 
     .records {
@@ -455,9 +447,16 @@ h2 {
     }
 
     main{
-        padding: 0 !important;
-        margin: 20px 0 0 0 !important;
-        width:90% !important;
-        box-shadow: none !important;
+        padding: 0;
+        margin: 20px 0 0 0;
+        width:90%;
+        box-shadow: none;
+    }
+}
+
+
+@media screen and (max-width:1024px){
+    .header-title {
+        font-size: 18pt;
     }
 }
